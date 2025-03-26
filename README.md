@@ -35,6 +35,8 @@ This is a simplified version of the Art Institute's offerings. For the full expe
 3. **Explore**:
    - Click "Home", "Artworks", "Artists", or "Exhibitions" in the navbar to view the content.
    - In "Artworks", click an image to see it in the modal (large view).
+     
+Note: Opening `index.html` directly by double-clicking may fail due to CORS restrictions in some browsers, preventing the "Home" page from loading. To ensure full functionality, use a local server as described above (e.g., Live Server or `npx serve`).
 
 ## Technical Details
 - API: Data is fetched from `https://api.artic.edu/api/v1/` with endpoints:
